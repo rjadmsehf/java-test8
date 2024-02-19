@@ -7,15 +7,15 @@ public class Control {
     public void on () {
         air.onOff();
     }
-    private void down () {
+
+    public void down () {
         air.ondoDown();
     }
-    private void up () {
+    public void up () {
         air.ondoUp();
     }
-    private void off(){
+    public void off(){
         air.off();
     }
-
 
 }

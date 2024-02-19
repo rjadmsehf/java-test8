@@ -5,11 +5,11 @@ import java.util.Date;
 public class UserDTO {
 
     /* 필기.  모든 필드를  private 접근제한 설정 */
-    public String id;
-    public String pwd;
+    private String id;
+    private String pwd;
 
-    public String name;
-    public  Date enrollDate;
+    private String name;
+    private  Date enrollDate;
     /* 필기 기본생성자 명시적으로 작성 */
     public UserDTO() {
         /* 필기 매개변수 있는 생성자는 선택사항이다.

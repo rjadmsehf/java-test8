@@ -18,6 +18,7 @@ public class Air {
         if (isOn){
             System.out.println("온도가 1도 내려갔습니다.");
             this.C = --C;
+            System.out.println("현재온도는 "+ C + "도 입니다.");
         }else {
             System.out.println("에어컨이 켜지지 않았습니다");
 
@@ -27,6 +28,7 @@ public class Air {
         if (isOn){
             System.out.println("온도가 1도 올라갔습니다.");
             this.C = ++C;
+            System.out.println("현재온도는 "+ C + "도 입니다.");
         }
     }
     public void off() {
