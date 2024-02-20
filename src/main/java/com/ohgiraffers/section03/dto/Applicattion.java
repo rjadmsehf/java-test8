@@ -21,8 +21,8 @@ public class Applicattion {
 
         MemberDTO member = new MemberDTO();
         member.setNumber(1);
-        member.setName("홍길동");
-        member.setAge(20);
+        member.setName("전준규");
+        member.setAge(24);
         member.setGender ('남');
         member.setHeight(178.7);
         member.setWeight(76.4);
