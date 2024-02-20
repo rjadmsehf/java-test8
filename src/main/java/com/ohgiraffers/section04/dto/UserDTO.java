@@ -65,7 +65,7 @@ public class UserDTO {
 
     public String getInfo(){
 
-        return "UserDTO [id=" + this.id + ", pwd=" + this.pwd + ", name=" + this.name + ", enrollDate=" + this.enrollDate + "]";
+        return "UserDTO2 [id=" + this.id + ", pwd=" + this.pwd + ", name=" + this.name + ", enrollDate=" + this.enrollDate + "]";
     }
 
 
