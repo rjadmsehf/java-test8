@@ -10,7 +10,7 @@ public class FinalFieldTest {
          1. 지역변수 : 초기화 이후에 값 변경 불가
          2. 매개변수 : 호출 시 전달한 인자 변경 불가
          3. 전역변수 : 인스턴스 생성 후 초기화 이후 값 변경 불가
-         4. 클래스(staic) 변수 : 프로그램 start 후 값 변경 불가
+         4. 클래스(static) 변수 : 프로그램 start 후 값 변경 불가
          5. non-static 메소드 : 메소드 재작성(overriding) 불가
          6. static 메소드 : 메소드 재작성(overriding) 불가
          7. 클래스 : 상속 불가
@@ -19,7 +19,7 @@ public class FinalFieldTest {
     /* 목차 1. non-static field 에 final 사용 */
 
     /* 필기
-        fibal 은 변경 불가의 의미를 가진다.
+        final 은 변경 불가의 의미를 가진다.
         따라서 초기 인스턴스가 생성되고 나면 기본값 0이 필드에 들어가게 되는데,
         그 초기화 이후 값을 변경할 수없기 때문에 선언하면서 바로 초기화(값 넣기)를 해 주어야 한다.
         그렇지 않으면 compile error 가 발생
@@ -35,7 +35,7 @@ public class FinalFieldTest {
 
     public FinalFieldTest(String nonStaticNAme) { this.NON_STATIC_NAME = nonStaticNAme; }
 
-    /* 목차. 2. static field에 final 사용 */
+    /* 목차. 2. static filed에 final 사용 */
 
     /* 필기
         static 에서도 자바에서 지정한 기본값이 초기에 들어가기 때문에
